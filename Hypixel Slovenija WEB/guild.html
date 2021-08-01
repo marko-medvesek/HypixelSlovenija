@@ -22,10 +22,20 @@
     <style>
     body {
      background-image: url("img/background4.jpg");
-     background-repeat: no-repeat;
-  /*   background-position: center;
-     background-size: cover; */
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+		margin: 0;
+		min-height: 100vh;
+		position: relative;
     }
+	
+body::after {
+			content: '';
+			display: block;
+			height: 50vh;
+}
+
     .btn-lvl {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       padding: 16px;
@@ -39,8 +49,8 @@
     }
     .btn-group .button {
   background-color: #00FFFF; /* Green */
-  border: 2px solid black;
   width: 170px;
+     border: 2px solid black; 
   height: 170px;
   color: white;
   right: 20px;
@@ -56,6 +66,15 @@
 .btn-group .button:not(:last-child) {
   border-right: none; /* Prevent double borders */
 }
+.float-container {
+    padding: 0 10px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+}  
     </style>
   </head>
   <body>
@@ -74,20 +93,12 @@
         </ul>
       </div>
     </nav>
-    <div style="color:white;font-family: 'Dosis', sans-serif;font-size: 20px;padding:0 30px;"><h2><b>HYPIXEL SLOVENIJA Guild</b></h2>
-      <div class="btn-group" align="center">
-      <button class="button">
-        <img src="img/medal.png" width="80px" height="auto">
-        <h3 style="font-size:35px;color:black;">26</h3>
-          <p style="color:black;font-size:13px;">level</p>
-      </button>
-      <button class="button">
-        <img src="img/user.png" width="50px" height="auto"></i>
-        <h3 style="font-size:35px;color:black;">110</h3>
-          <p style="color:black;font-size:13px;">Guild members</p>
-      </button>
-      </div>
-      <br>
+	<div class="float-container">
+
+  <div class="float-child">
+<div style="color:white;font-family: 'Dosis', sans-serif;font-size: 18px;padding:0 15px;" align="left">
+	<h2><b>HYPIXEL SLOVENIJA Guild</b></h2>
+    <br>
     <br>
 <p2><i>Kaj je Guild?</i></p2>
 <p>Skupina na Hypixelu, ki ti omogoča, da s prijatelji dobiš <b>Guild expirience</b> ter posebne <b>Achievemente</b>.</p>
@@ -110,6 +121,27 @@
     <li>Guild Member</li>
 </ul>
 </div>
+  </div>
+  
+  <div class="float-child" style="padding:20px 0;">
+    <div align="center">
+      <div class="btn-group" align="center">
+      <button class="button">
+        <img src="img/medal.png" width="90px" height="auto">
+        <h3 style="font-size:35px;color:black;">26</h3>
+          <p style="color:black;font-size:13px;">level</p>
+      </button>
+      <button class="button">
+        <img src="img/user.png" width="50px" height="auto"></i>
+        <h3 style="font-size:35px;color:black;">103</h3>
+          <p style="color:black;font-size:13px;">Guild members</p>
+      </button>
+      </div>
+	  </div>
+  </div>
+  
+</div>
+    
 <!--
 <div align="center" style="font-family: 'Dosis', sans-serif;">
     <div class="card" style="width:10%;height:auto;">
@@ -124,6 +156,17 @@
         <p>level</p>
 </div>
 </div> -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <footer class="footer-distributed">
 
@@ -141,6 +184,8 @@
 					<a href="guild.html">Guild</a>
 
 					<a href="osebje.html">Osebje</a>
+					
+					<a href="pomoc.html">Pomoč</a>
 
 				</p>
 
@@ -152,7 +197,7 @@
 
 				<div>
 					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:info@hypixelslovenija.ga">info@hypixelslovenija.ga</a></p>
+					<p><a href="mailto:hypixelslovenija@gmail.com">hypixelslovenija@gmail.com</a></p>
 				</div>
 
 			</div>
@@ -166,7 +211,7 @@
 
 				<div class="footer-icons">
           <a href="https://www.reddit.com/r/HypixelSlovenija/"><img src="img/reddit.png" style="align:center;height:auto;width:76%;" ><!-- width="25" height="25"> --></a>
-				<a href="https://discord.gg/wUncsXWUb7"><img src="img/discord.png" style="align:center;height:auto;width:70%;"></a>
+				<a href="https://discord.gg/wUncsXWUb7"><img src="img/discord_blu.png" style="align:center;height:auto;width:70%;"></a>
 					<a href="https://www.youtube.com/channel/UC5diN1JFlf_iGeXkqKqX5HA?sub_confirmation=1"><img  src="img/youtube.png" style="height:auto;width:85%;"></a>
 					<a href="https://hypixel.paniek.de/guild/Hypixel%20Slovenija/members"><img  src="img/hypixel-logo.png" width="30" height="30"></a>
 

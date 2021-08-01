@@ -12,6 +12,13 @@
             width: 100%;
 }
 */
+
+footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+	
 section {
   width: 100%;
   display: inline-block;
@@ -30,7 +37,7 @@ section {
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-	padding: 55px 50px;
+	padding: 15px 10px;
 }
 
 .footer-distributed .footer-left,
@@ -147,7 +154,7 @@ section {
 
 .footer-distributed .footer-company-about{
 	line-height: 20px;
-	color:  #92999f;
+	color:  #aeb7bf;
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;

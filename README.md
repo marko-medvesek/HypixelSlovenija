@@ -8,7 +8,7 @@ https://hypixelslovenija.ga/
 
 ### To do list:
     
-    ####Turnirji:
+    ###Turnirji:
         - popravi font
         - dodaj slike
         - 

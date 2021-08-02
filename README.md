@@ -17,7 +17,7 @@ https://hypixelslovenija.ga/
     Pomoč (FAQ):
         - dokumentiraj verifikacijo v Discordu
         - dokumentiraj uporabo robotov v discordu
-        - dokumentiraj vse kar se da dokumentirat
+        - dokumentiraj uporabo discorda in pravila
 
 
 

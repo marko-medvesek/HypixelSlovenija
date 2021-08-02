@@ -8,10 +8,18 @@ https://hypixelslovenija.ga/
 
 ### To do list:
     
-    ###Turnirji:
+    Turnirji:
         - popravi font
         - dodaj slike
-        - 
+        - napiši meta description
+        - dodaj creeper attack turnir
+        
+    Pomoč (FAQ):
+        - dokumentiraj verifikacijo v Discordu
+        - dokumentiraj uporabo robotov v discordu
+        - dokumentiraj vse kar se da dokumentirat
+
+
 
 Made by: SlovenianGamer
 Contact me:

@@ -4,7 +4,7 @@ table {
 }
 
 th, td {
-  text-align: center;
+  text-align: left;
   padding: 8px;
   /* font-family: 'Dosis', sans-serif; */
 }
@@ -16,6 +16,7 @@ tr:nth-child(5){background-color: #D3D3D3}
 tr:nth-child(6){background-color: #f2f2f2}
 tr:nth-child(7){background-color: #D3D3D3}
 tr:nth-child(8){background-color: #f2f2f2}
+tr:nth-child(9){background-color: #D3D3D3}
 
 th {
   background-color: #04AA6D;

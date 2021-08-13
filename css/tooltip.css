@@ -47,7 +47,7 @@
   content: '';
   border-style: solid;
   border-width: 5px 5px 0px 5px; /* CSS triangle */
-  /*border-color: rgba(55, 64, 70, 0.9) transparent transparent transparent */;
+  border-color: rgba(55, 64, 70, 0.9) transparent transparent transparent;
   transition-duration: 0s; /* If the mouse leaves the element,
                               the transition effects for the
                               tooltip arrow are "turned off" */
@@ -175,16 +175,6 @@
 
 
 /* Settings that make the pen look nicer */
-html {
-  width: 100%;
-  height: 100%;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 1.2em;
-  background: linear-gradient(45deg, #243949, #2cacd1, #35eb93);
-  background-size: 120% 120%;
-  animation: moveFocus 5s ease infinite alternate;
-}
 @keyframes moveFocus {
   0%   { background-position: 0% 100% }
   100% { background-position: 100% 0% }

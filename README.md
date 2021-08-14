@@ -9,7 +9,7 @@ https://hypixelslovenija.ga/
 ### To do list:
     
     Turnirji:
-        - popravi font
+        - nekako dodaj kontrast med textom in ozadjem ker se prekriva belo na belo podlago (myb div background color z 10%-30% opacity)
         - dodaj slike
         - napiši meta description
         - dodaj creeper attack turnir
@@ -18,6 +18,12 @@ https://hypixelslovenija.ga/
         - dokumentiraj verifikacijo v Discordu
         - dokumentiraj uporabo robotov v discordu
         - dokumentiraj uporabo discorda in pravila
+    
+    overall:
+        - naredi celo spletno stran še v angleščini
+            - prevedi text po logiki in s pomočjo https://pons.si
+            - naredi kul zastavico
+            - naredi pretty link, ki bo zgledal tako https://hypixelslovenija.ga/en
 
 
 

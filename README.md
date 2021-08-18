@@ -7,23 +7,24 @@ Website je bil ustvarjen enkrat poznega julija in to z namenom boljšega oglaše
 https://hypixelslovenija.ga/
 
 ### To do list:
-    
+
     Turnirji:
         - nekako dodaj kontrast med textom in ozadjem ker se prekriva belo na belo podlago (myb div background color z 10%-30% opacity)
         - dodaj slike
         - napiši meta description
         - dodaj creeper attack turnir
-        
+
     Pomoč (FAQ):
         - dokumentiraj verifikacijo v Discordu
         - dokumentiraj uporabo robotov v discordu
         - dokumentiraj uporabo discorda in pravila
-    
+
     overall:
         - naredi celo spletno stran še v angleščini
             - prevedi text po logiki in s pomočjo https://pons.si
             - naredi kul zastavico
             - naredi pretty link, ki bo zgledal tako https://hypixelslovenija.ga/en
+            - bootstrap header + footer (basicly scrap all the work and start over)
 
 
 

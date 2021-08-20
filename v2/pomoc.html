@@ -6,14 +6,11 @@
 <meta property="og:title"              content="Hypixel Slovenija - Slime SkyWars Turnir" />
 <meta property="og:description"        content="Slime SkyWars Turnir" />
 <meta property="og:image:secure"              content="https://i.ibb.co/cbGRbW9/logo.png" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/collapsible.css">
 <link rel="stylesheet" href="css/footer.css">
 <!-- <link rel="stylesheet" href="css/tooltip.css"> -->
   <head>
@@ -38,73 +35,60 @@ border-radius: 2px;
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#"><image src="img/logo.gif" width="32" height="32" style=""></a>            <a class="navbar-brand" href="#">Hypixel Slovenija</a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Domov</a></li>
-          <li><a href="discord.html">Discord</a></li>
-          <li><a href="events.html">Eventi</a></li>
-          <li><a href="guild.html">Guild</a></li>
-          <li><a href="osebje.html">Osebje</a></li>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html" style="padding:0px 10px;">
+    <img src="img/logo1.png" width="32" height="32" class="d-inline-block align-top" alt="">
+    Hypixel Slovenija
+  </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link nav-active" href="index.html" style="padding: 5px 10px;">Domov <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="discord.html" style="padding: 5px 10px;">Discord</a>
+          </li>
+		<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 5px 10px;">
+              Eventi
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width:30%;">
+              <a class="dropdown-item" href="turnir1.html">Turnir 1</a>
+              <a class="dropdown-item" href="turnir2.html">Turnir 2</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="events.html">vsi turnirji</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="guild.html" style="padding: 5px 10px;">Guild</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="osebje.html" style="padding: 5px 10px;">Osebje</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link active" href="pomoc.html" style="padding: 5px 10px;">Pomoč</a>
+          </li>
         </ul>
       </div>
     </nav>
+	</header>
 <br>
 <div align="center" >
-<h1 style="color:white;"><b>Slime Skywars Turnir</b></h1>
+<h1 style="color:white;"><b>Pogosto zastavljena vprašanja</b></h1>
+<div style="width:50%;height:auto;color:white;padding:0 30px;font-family: 'Dosis', sans-serif;font-size: 20px;background-color: rgba(110, 110, 110, 0.2); <!--   -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black; -->">
+<p style="font-family: 'Dosis', sans-serif;background-color: rgba(110, 110, 110, 0.4);"><b>Kako se lahko pridružim Discord serverju?</b> Klikneš <a href="https://discord.gg/WdJRMvs2t4" style="font-family: 'Dosis', sans-serif;" target="blank">tukaj</a> nato se ti odpre nov zavihek z povabilom v naš server.</p>
+<p style="font-family: 'Dosis', sans-serif;background-color: rgba(110, 110, 110, 0.4);"><b>Kako se preverim v Discord serverju? </b>V #✅》preveri-se napiši svoje Minecraft ime in počakaj, da te nekdo iz osebja potrdi.</p>
+<p style="font-family: 'Dosis', sans-serif; background-color: rgba(110, 110, 110, 0.4);"><b>Kako se lahko sam preverim brez pomoči osebja? </b>Najprej bomo povezali svoj Discord račun z Hypixel podatki, to pa naredimo tako, da se v Minecraft-u prijavimo na strežnik <b>mc.hypixel.net</b> ter v "hotbaru" klikni na svojo glavo. Zatem se bo odprl meni na katerem bo veliko opcij. Izbrali bomo opcijo <b>Social media</b> ter nato <b>Discord</b> (svetlo modre barve). Sedaj lahko v chat napišemo svoj Discord tag (npr. TNT444#3148). Skoraj smo že pri koncu, sedaj pa lahko v Discord napišemo <b>.p @{tvoj discord} {tvoj Minecraft username}</b></p>
+<p style="font-family: 'Dosis', sans-serif;background-color: rgba(110, 110, 110, 0.4);"><b>Kaj pomeni če osebje napiše poizvedbo mojega Minecraft imena in se pokaže error?</b> To lahko pomeni dve stvari: 1. Pod tem Minecraft imenom ni registriranega uporabnika (ponavadi težava ker oseba nima kupljenega Minecrafta ali pa se je zatipkala) ali 2. Uporabnik tega Minecraft imena se še nikoli ni povezal na strežnik hypixel</p>
 </div>
-<div style="width:40%;height:auto;color:white;padding:0 30px;font-family: 'Dosis', sans-serif;">
-<p style="font-family: 'Dosis', sans-serif;">Kdaj? 6. Januar 2021 ob 14:30</p>
-<p2 style="font-family: 'Dosis', sans-serif;">Kako se turnirja udeležiti? V Hypixel chatu napišite /p join DogPlays8 5-10 minut do začetka turnirja.</p2>
-<p style="font-family: 'Dosis', sans-serif;">Prijave v party se ob 14:30, ko je začetek turnirja zaprejo, zato ne zamujajte!</p>
-<p style="font-family: 'Dosis', sans-serif;">Kaj je nagrada za zmagovalca? @deleted-role role</p>
-<p style="font-family: 'Dosis', sans-serif;padding:5px 20px;"><b>PRAVILA:</b></p>
-- Brez hackanja
-- Brez cross teaminga
-
-KAKO BO TURNIR POTEKAL:
-- Ob 14:20 se bomo začeli prijavljati v party. Zamudnikov ne sprejemamo.
-- Ob 14:30 se bomo joinali v prvo igro
-- Vsakič, ko zmagaš igro, dobiš 1 točko
-- Prvi, ki pride do 4 točk zmaga</p>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<!--
 <footer class="footer-distributed">
 
 			<div class="footer-left">
@@ -146,7 +130,7 @@ KAKO BO TURNIR POTEKAL:
 
 				<div class="footer-icons">
 
-					<a href="https://www.reddit.com/r/HypixelSlovenija/"><img src="img/reddit.png" style="align:center;height:auto;width:76%;" ><!-- width="25" height="25"> --></a>
+					<a href="https://www.reddit.com/r/HypixelSlovenija/"><img src="img/reddit.png" style="align:center;height:auto;width:76%;" ></a>
 				      	<a href="https://discord.gg/wUncsXWUb7"><img src="img/discord_blu.png" style="align:center;height:auto;width:70%;"></a>
 					<a href="https://www.youtube.com/channel/UC5diN1JFlf_iGeXkqKqX5HA?sub_confirmation=1"><img  src="img/youtube.png" style="height:auto;width:85%;"></a>
 					<a href="https://hypixel.paniek.de/guild/Hypixel%20Slovenija/members"><img  src="img/hypixel-logo.png" width="30" height="30"></a>
@@ -156,6 +140,6 @@ KAKO BO TURNIR POTEKAL:
 
 			</div>
 
-		</footer>
+		</footer> -->
   </body>
 </html>

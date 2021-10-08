@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<link rel="icon" href="../img/logo.png" type="image/png" sizes="32x32">
+<link rel="icon" href="img/logo.png" type="image/png" sizes="32x32">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:url"                content="https://hypixel.si" />
-<meta property="og:title"              content="Hypixel Slovenija - Pomoč" />
-<meta property="og:description"        content="Iskalnik pomoči" />
-<meta property="og:image"              content="https://hypixel.si/img/logo1.png" />
+<meta property="og:url"                content="https://hypixel.si/discord" />
+<meta property="og:title"              content="Hypixel Slovenija - Discord" />
+<meta property="og:description"        content="Hypixel Slovenija ima tudi svoj discord server na katerem se odvija veliko stvari" />
+<meta property="og:image"              content="https://hypixel.si/beta/img/logo.png" />
+      <meta content="#ffea54" data-react-helmet="true" name="theme-color" />
+<meta name="keywords" content="Hypixel, HypixelSlovenija, Hypixel Slovenija, HypixelSLO, HypixelSlo, Hypixel-SLO, Hypixel-si, Hypixel Slovenia, Hypixel Slo, Hypixel Discord, Discord, Discord Hypixel, Hypixel Slo Discord, Discord server, Hypixel Slovenija Discord server">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-<link rel="stylesheet" href="style.css">
-<!-- <link rel="stylesheet" href="css/tooltip.css"> -->
- <link rel="stylesheet" href="../css/flex-footer.css">
 
+<!-- <link rel="stylesheet" href="css/tooltip.css"> -->
+ <link rel="stylesheet" href="css/flex-footer.css">
+  <link rel="stylesheet" href="css/iframe.css">
+    <link rel="stylesheet" href="css/helpcss.css">
+      <link rel="stylesheet" href="css/download.css">
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
+<link rel="stylesheet" href="css/fonts/mcfont.css">
   <head>
     <meta charset="utf-8">
-    <title>Pomoč</title>
+    <title>Discord</title>
     <style>
     body {
-     background-image: url("../img/background3.jpg");
+     background-image: url("img/background2.jpg");
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -39,13 +44,21 @@ cursor: pointer;
 background-color:  #33383b;
 border-radius: 2px;
 }
+.nodrag {
+   user-select: none;
+   user-drag: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
     </style>
   </head>
   <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html" style="padding:0px 10px;">
-    <img src="../img/logo1.png" width="32" height="32" class="d-inline-block align-top" alt="">
+      <a class="navbar-brand nodrag" href="index.html" style="padding:0px 10px;">
+    <img src="img/logo1.png" width="32" height="32" class="d-inline-block align-top nodrag" alt="">
     Hypixel Slovenija
   </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,51 +68,83 @@ border-radius: 2px;
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item ">
-            <a class="nav-link nav-active" href="../index.html" style="padding: 5px 10px;">Domov <span class="sr-only"></span></a>
+            <a class="nav-link" href="index.html" style="padding: 5px 10px;">Domov <span class="sr-only"></span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../discord.html" style="padding: 5px 10px;">Discord</a>
+          <li class="nav-item active">
+            <a class="nav-link active" href="discord.html" style="padding: 5px 10px;">Discord</a>
           </li>
 		<li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 5px 10px;">
               Eventi
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width:30%;">
-              <a class="dropdown-item" href="../turnir1.html">Turnir 1</a>
-              <a class="dropdown-item" href="../turnir2.html">Turnir 2</a>
+              <a class="dropdown-item" href="turnir1.html">Turnir 1</a>
+              <a class="dropdown-item" href="turnir2.html">Turnir 2</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="../events.html">vsi turnirji</a>
+              <a class="dropdown-item" href="events.html">vsi turnirji</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../guild.html" style="padding: 5px 10px;">Guild</a>
+            <a class="nav-link" href="guild.html" style="padding: 5px 10px;">Guild</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../osebje.html" style="padding: 5px 10px;">Osebje</a>
+            <a class="nav-link" href="osebje.html" style="padding: 5px 10px;">Osebje</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link active" href="" style="padding: 5px 10px;">Pomoč</a>
+          <li class="nav-item">
+            <a class="nav-link" href="pomoč/" style="padding: 5px 10px;">Pomoč</a>
           </li>
         </ul>
       </div>
     </nav>
 	</header>
 <br>
-<div align="center" >
-<h1 style="color:white;"><b style="color:white;">Pogosto zastavljena vprašanja</b></h1>
+<div align="center">
+<p class="fontsforweb_fontid_1412" style="color:black;font-size:32px;">Discord Server</p>
+<br>
+<iframe src="https://discordapp.com/widget?id=794995068720119849&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 <div class="wrapper">
-  <div class="search-input">
-    <a href="" target="_blank" hidden></a>
-    <input type="text" placeholder="Išči tukaj..">
-    <div class="autocom-box">
-      <!-- here list are inserted from javascript -->
+<div class="bottom">
+<a href="https://discord.gg/WdJRMvs2t4">
+    <div class="download-btn btn-1"style="color:black;">
+       <div class="top">
+            Pridruži se nam
+       </div>
+       <div class="bottom">
+          Hypixel Slovenija
+       </div>
+
+
+
     </div>
-    <div class="icon"><i class="fas fa-search"></i></div>
-  </div>
+</a>
+</div>
 </div>
 
-<script src="js/suggestions.js"></script>
-<script src="js/script.js"></script>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!--
+  <div class="iframe-container">
+    <iframe src="https://www.youtube.com/embed/KWBlsqvQKB" title="YouTube video player"  allowfullscreen></iframe>
+  </div>  -->
+
+
+  <!--
+<div class="search-input">
+    <a href="" target="_blank" hidden></a>
+    <input type="text" placeholder="Išči tukaj..">
+    <div class="autocom-box">-->
+
+
+
+
+      <!-- here list are inserted from javascript -->
+</div>
+
 </div>
 </div>
 <footer>

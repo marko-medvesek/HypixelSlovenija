@@ -12,7 +12,7 @@ inputBox.onkeyup = (e)=>{
     let emptyArray = [];
     if(userData){
         icon.onclick = ()=>{
-            webLink = `https://www.google.com/search?q=site:hypixelslovenija.ga%20${userData}`;
+            webLink = `https://www.google.com/search?q=site:hypixel.si%20${userData}`;
             linkTag.setAttribute("href", webLink);
             linkTag.click();
         }
@@ -40,7 +40,7 @@ function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = ()=>{
-        webLink = `https://hypixelslovenija.ga/pomoč/${selectData}`;
+        webLink = `https://hypixel.si/pomoč/${selectData}`;
         linkTag.setAttribute("href", webLink);
         linkTag.click();
     }
@@ -51,7 +51,7 @@ function showSuggestions(list){
     let listData;
     if(!list.length){
         userValue = inputBox.value;
-        listData = `<li>${userValue}</li>`;
+        listData = `<li>Ni najdenih rezultatov za '${userValue}'</li>`;
     }else{
       listData = list.join('');
     }

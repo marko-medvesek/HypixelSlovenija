@@ -4,7 +4,7 @@ Namenjen je igranju z drugimi Slovenci, poleg tega pa tudi redno prirejamo Turni
 Pridružite se nam v naš Discord https://discord.gg/wUncsXWUb7
 
 Website je bil ustvarjen enkrat poznega julija in to z namenom boljšega oglaševanja naše male skupnosti igralcev (ko pišem to 460).
-https://hypixelslovenija.ga/
+https://hypixel.si/
 
 ### To do list:
 
@@ -23,12 +23,12 @@ https://hypixelslovenija.ga/
         - naredi celo spletno stran še v angleščini
             - prevedi text po logiki in s pomočjo https://pons.si
             - naredi kul zastavico
-            - naredi pretty link, ki bo zgledal tako https://hypixelslovenija.ga/en
-            - bootstrap header + footer (basicly scrap all the work and start over)
+            - naredi pretty link za multilangual website, ki bo zgledal tako https://hypixel.si/en
 
 
 
 Made by: SlovenianGamer
 Contact me:
-  Discord: SlovenianGamer#0001
+  Discord: SlovenianGamer#0498
   email: slovenian.gamer028@gmail.com
+  služben mail: info@hypixel.si

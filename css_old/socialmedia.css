@@ -1,0 +1,124 @@
+a {
+  background: #D2D7D3;
+  color: #222;
+  border-radius: 100%;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  width: 40px;
+  height: 28px;
+  margin: 0 2px;
+  padding-top: 12px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+a.icon:before {
+  font-family: "FontAwesome", sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+
+a.facebook:before {
+  content: '\f09a';
+}
+
+a.twitter:before {
+  content: '\f099';
+}
+
+a.github:before {
+  content: '\f113';
+}
+
+a.dribble:before {
+  content: '\f17d';
+}
+
+a.pinterest:before {
+  content: '\f0d2';
+}
+
+a span {
+  background: #fff;
+  color: #222;
+  font-size: 14px;
+  font-weight: bold;
+  position:  absolute;
+  bottom: 0;
+  left: -25px;
+  right: -25px;
+  padding: 5px 7px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  transition: all .4s;
+}
+
+a span:before {
+  content: '';
+/*   width: 0;
+  height: 0; */
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 40px;
+}
+
+a:hover span {
+  bottom: 50px;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* Hover through the icons */
+
+a.facebook:hover {
+  background-color: #4183d7;
+  color: #bfbfbf;
+}
+
+a.facebook span {
+  color: #4183d7;
+}
+
+a.twitter:hover {
+  background-color: #19b5fe;
+  color: #fff;
+}
+
+a.twitter span {
+  color: #19b5fe;
+}
+
+a.github:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+a.github span {
+  color: #000;
+}
+
+a.dribble:hover {
+  background-color: #f62459;
+  color: #fff;
+}
+
+a.dribble span {
+  color: #f62459;
+}
+
+a.pinterest:hover {
+  background-color: #f22613;
+  color: #fff;
+}
+
+a.pinterest span {
+  color: #f22613;
+}
